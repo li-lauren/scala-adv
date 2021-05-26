@@ -65,7 +65,7 @@ object PartialFunctions extends App {
    */
 
   val aManualFussyFunction = new PartialFunction[Int, Int] {
-    override def apply(v1: Int): Int = x match {
+    override def apply(v1: Int): Int = v1 match {
       case 1 => 42
       case 2 => 65
       case 5 => 999
