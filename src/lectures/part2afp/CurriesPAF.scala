@@ -25,6 +25,7 @@ object CurriesPAF extends App {
   // List(1,2,3).map(x => inc(x))
 
   // Partial function applications
+  // lifting methods to functions
   val add5 = curriedAdder(5) _
 
   // Exercise
